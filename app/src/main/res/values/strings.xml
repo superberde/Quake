@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Quake Report</string>
+
+    <!-- Default text to show with the earthquake location ("Near the Pacific-Antarctic Ridge")
+         if no specific kilometer distance from the primary location is given [CHAR LIMIT=30] -->
+    <string name="near_the">Near the</string>
+
+    <!-- Text to display in the list when there are no earthquakes [CHAR LIMIT=NONE] -->
+    <string name="no_earthquakes">No earthquakes found.</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">Earthquake Settings</string>
+
+    <!-- Strings For Minimum Magnitude Preference [CHAR LIMIT=30] -->
+    <string name="settings_min_magnitude_label">Minimum Magnitude</string>
+    <string name="settings_min_magnitude_key" translatable="false">min_magnitude</string>
+    <string name="settings_min_magnitude_default" translatable="false">6</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_magnitude_value</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_magnitude_label">Magnitude</string>
+    <string name="settings_order_by_magnitude_value" translatable="false">magnitude</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_recent_label">Most Recent</string>
+    <string name="settings_order_by_most_recent_value" translatable="false">time</string>
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">+ 5</string>
+    <string name="title_notifications">Map</string>
+
+    <!-- Shortcuts -->
+    <string name="compose_shortcut_short_label1">Short label</string>
+    <string name="compose_shortcut_long_label1">Long label</string>
+    <string name="compose_disabled_message1">Dissable message</string>
+
+    <string name="utils_notification_title_template">Utils: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="utils_notification_placeholder_text_template">You said %1$s and lorem ipsum dolor
+        sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel semper
+        venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis. Pellentesque
+        vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper ornare lacus. Duis
+        ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis viverra rhoncus sit amet
+        nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec tortor.
+    </string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+</resources>
